@@ -135,22 +135,6 @@ body.dark {
   src: url("../fonts/better.otf");
 }
 
-header {
-  background: #006d49;
-  height: 60px;
-  font-size: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: white;
-}
-
 .section__hero {
   padding: 150px 0 350px 0;
   background: url("../img/hero__bg.svg") center/cover no-repeat;
@@ -823,22 +807,6 @@ header {
   font-size: 22px;
   line-height: 32px;
   color: #2b9078;
-}
-
-footer {
-  background: #006d49;
-  height: 200px;
-  font-size: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: white;
 }
 
 @media (max-width: 1449.98px) {
