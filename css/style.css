@@ -399,7 +399,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 60px;
-  border-bottom: 2px solid #d9d9d9;
   gap: 20px;
 }
 
@@ -758,6 +757,9 @@ header {
   border: 1px solid #00b33f;
   border-radius: 30px;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .location__img img {
@@ -770,26 +772,26 @@ header {
 .location__name {
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 40px;
   color: #047569;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .location__text {
   font-style: normal;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 34px;
   color: #2b9078;
-  margin-top: 34px;
+  margin-top: 24px;
 }
 
 .location__subtitle {
-  margin-top: 40px;
+  margin-top: 30px;
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 34px;
   color: #ff6d00;
 }
@@ -801,7 +803,7 @@ header {
 }
 
 .location__info.space__top {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .location__info-name {
@@ -810,7 +812,7 @@ header {
           flex: 0 1 136px;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 32px;
   color: #2b9078;
 }
@@ -818,7 +820,7 @@ header {
 .location__info-data {
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 32px;
   color: #2b9078;
 }
@@ -1116,7 +1118,7 @@ footer {
   }
 
   .location__text {
-    margin-top: 20px;
+    margin-top: 18px;
     font-size: 15px;
     line-height: 20px;
   }
@@ -1302,6 +1304,10 @@ footer {
     bottom: -10px;
   }
 
+  .shop__info {
+    gap: 10px;
+  }
+
   .shop__text {
     max-width: 140px;
   }
@@ -1387,7 +1393,7 @@ footer {
   }
 
   .shop__price {
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
   }
 }
